@@ -1,0 +1,38 @@
+body {
+  font-size: 13px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.gallery {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-item {
+  display: block;
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-b {
+  display: flex;
+  flex-direction: column;
+}
+
+.js-hidden {
+  display: none;
+}
